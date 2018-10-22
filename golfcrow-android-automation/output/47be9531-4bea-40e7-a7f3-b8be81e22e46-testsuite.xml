@@ -1,0 +1,526 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1540191594944' stop='1540192139015'>
+    <name>GolfCrow: Sign-up:</name>
+    <title>GolfCrow: Sign-up:</title>
+    <test-cases>
+        <test-case start='1540191635323' status='passed' stop='1540191641608'>
+            <name>Check if sign-up page is loaded.</name>
+            <title>Check if sign-up page is loaded.</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1540191635327' status='passed' stop='1540191636807'>
+                    <name>I click "#com.fabforedev.golfcrow:id/buttonSignUp"</name>
+                    <title>I click "#com.fabforedev.golfcrow:id/buttonSignUp"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1540191636807' status='passed' stop='1540191641608'>
+                    <name>I: verifyUserPageLocation </name>
+                    <title>I: verifyUserPageLocation </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1540191636807' status='passed' stop='1540191641607'>
+                            <name>I see "Sign Up"</name>
+                            <title>I see "Sign Up"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1540191641610' status='passed' stop='1540191789710'>
+            <name>Check if required fields are mandatory.</name>
+            <title>Check if required fields are mandatory.</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1540191641616' status='passed' stop='1540191642161'>
+                    <name>I click "#com.fabforedev.golfcrow:id/action_menu_done"</name>
+                    <title>I click "#com.fabforedev.golfcrow:id/action_menu_done"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1540191642161' status='passed' stop='1540191647815'>
+                    <name>I: verifyUserPageLocation </name>
+                    <title>I: verifyUserPageLocation </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1540191642161' status='passed' stop='1540191647815'>
+                            <name>I see "Sign Up"</name>
+                            <title>I see "Sign Up"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1540191647815' status='passed' stop='1540191789710'>
+                    <name>I: fillOutGolfCrowSignUpWithValidValues </name>
+                    <title>I: fillOutGolfCrowSignUpWithValidValues </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1540191647815' status='passed' stop='1540191649357'>
+                            <name>I click "#com.fabforedev.golfcrow:id/textView_selectedCountry"</name>
+                            <title>I click "#com.fabforedev.golfcrow:id/textView_selectedCountry"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1540191649357' status='passed' stop='1540191662858'>
+                            <name>I fill field "#com.fabforedev.golfcrow:id/editText_search", "Philippines"</name>
+                            <title>I fill field "#com.fabforedev.golfcrow:id/editText_search", "Philippines"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1540191662858' status='passed' stop='1540191663959'>
+                            <name>I hide device keyboard </name>
+                            <title>I hide device keyboard </title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1540191663959' status='passed' stop='1540191698368'>
+                            <name>I click "Philippines (PH)"</name>
+                            <title>I click "Philippines (PH)"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1540191698368' status='passed' stop='1540191704171'>
+                            <name>I see "+63"</name>
+                            <title>I see "+63"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1540191704171' status='passed' stop='1540191718959'>
+                            <name>I fill field "#com.fabforedev.golfcrow:id/editTextNumber", "9434212398"</name>
+                            <title>I fill field "#com.fabforedev.golfcrow:id/editTextNumber", "9434212398"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1540191718960' status='passed' stop='1540191720509'>
+                            <name>I hide device keyboard </name>
+                            <title>I hide device keyboard </title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1540191720509' status='passed' stop='1540191732468'>
+                            <name>I fill field "#com.fabforedev.golfcrow:id/editTextPassword", "qwerty1"</name>
+                            <title>I fill field "#com.fabforedev.golfcrow:id/editTextPassword", "qwerty1"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1540191732468' status='passed' stop='1540191734614'>
+                            <name>I hide device keyboard </name>
+                            <title>I hide device keyboard </title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1540191734614' status='passed' stop='1540191746509'>
+                            <name>I fill field "#com.fabforedev.golfcrow:id/editTextFName", "Hosea"</name>
+                            <title>I fill field "#com.fabforedev.golfcrow:id/editTextFName", "Hosea"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1540191746509' status='passed' stop='1540191748061'>
+                            <name>I hide device keyboard </name>
+                            <title>I hide device keyboard </title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1540191748061' status='passed' stop='1540191760510'>
+                            <name>I fill field "#com.fabforedev.golfcrow:id/editTextLName", "Schultz"</name>
+                            <title>I fill field "#com.fabforedev.golfcrow:id/editTextLName", "Schultz"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1540191760510' status='passed' stop='1540191761158'>
+                            <name>I hide device keyboard </name>
+                            <title>I hide device keyboard </title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1540191761159' status='passed' stop='1540191775472'>
+                            <name>I fill field "#com.fabforedev.golfcrow:id/editTextEmail", "GolfCrow+2210201825954PM@qa.sourcepad.com"</name>
+                            <title>I fill field "#com.fabforedev.golfcrow:id/editTextEmail", "GolfCrow+2210201825954PM@qa.sourcepad.com"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1540191775472' status='passed' stop='1540191776113'>
+                            <name>I hide device keyboard </name>
+                            <title>I hide device keyboard </title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1540191776113' status='passed' stop='1540191789058'>
+                            <name>I fill field "#com.fabforedev.golfcrow:id/editTextGHIN", "6585281"</name>
+                            <title>I fill field "#com.fabforedev.golfcrow:id/editTextGHIN", "6585281"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1540191789058' status='passed' stop='1540191789709'>
+                            <name>I hide device keyboard </name>
+                            <title>I hide device keyboard </title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1540191789711' status='passed' stop='1540191819664'>
+            <name>Sign-up with invalid number.</name>
+            <title>Sign-up with invalid number.</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1540191789711' status='passed' stop='1540191797914'>
+                    <name>I fill field "#com.fabforedev.golfcrow:id/editTextNumber", "60258541"</name>
+                    <title>I fill field "#com.fabforedev.golfcrow:id/editTextNumber", "60258541"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1540191797914' status='passed' stop='1540191799710'>
+                    <name>I hide device keyboard </name>
+                    <title>I hide device keyboard </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1540191799711' status='passed' stop='1540191800769'>
+                    <name>I click "#com.fabforedev.golfcrow:id/action_menu_done"</name>
+                    <title>I click "#com.fabforedev.golfcrow:id/action_menu_done"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1540191800769' status='passed' stop='1540191807467'>
+                    <name>I: verifyUserPageLocation </name>
+                    <title>I: verifyUserPageLocation </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1540191800769' status='passed' stop='1540191807466'>
+                            <name>I see "Sign Up"</name>
+                            <title>I see "Sign Up"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1540191807467' status='passed' stop='1540191818109'>
+                    <name>I fill field "#com.fabforedev.golfcrow:id/editTextNumber", "9434212398"</name>
+                    <title>I fill field "#com.fabforedev.golfcrow:id/editTextNumber", "9434212398"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1540191818109' status='passed' stop='1540191819664'>
+                    <name>I hide device keyboard </name>
+                    <title>I hide device keyboard </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1540191819665' status='passed' stop='1540191851317'>
+            <name>Sign-up with invalid password.</name>
+            <title>Sign-up with invalid password.</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1540191819667' status='passed' stop='1540191828373'>
+                    <name>I fill field "#com.fabforedev.golfcrow:id/editTextPassword", "qwert"</name>
+                    <title>I fill field "#com.fabforedev.golfcrow:id/editTextPassword", "qwert"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1540191828373' status='passed' stop='1540191830559'>
+                    <name>I hide device keyboard </name>
+                    <title>I hide device keyboard </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1540191830559' status='passed' stop='1540191830960'>
+                    <name>I click "#com.fabforedev.golfcrow:id/action_menu_done"</name>
+                    <title>I click "#com.fabforedev.golfcrow:id/action_menu_done"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1540191830960' status='passed' stop='1540191837909'>
+                    <name>I: verifyUserPageLocation </name>
+                    <title>I: verifyUserPageLocation </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1540191830960' status='passed' stop='1540191837909'>
+                            <name>I see "Sign Up"</name>
+                            <title>I see "Sign Up"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1540191837909' status='passed' stop='1540191849614'>
+                    <name>I fill field "#com.fabforedev.golfcrow:id/editTextPassword", "qwerty1"</name>
+                    <title>I fill field "#com.fabforedev.golfcrow:id/editTextPassword", "qwerty1"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1540191849614' status='passed' stop='1540191851316'>
+                    <name>I hide device keyboard </name>
+                    <title>I hide device keyboard </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1540191851317' status='passed' stop='1540191883263'>
+            <name>Sign-up with invalid email.</name>
+            <title>Sign-up with invalid email.</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1540191851318' status='passed' stop='1540191862909'>
+                    <name>I fill field "#com.fabforedev.golfcrow:id/editTextEmail", "GolfCrow+2210201825954PM.qa.sourcepad.com"</name>
+                    <title>I fill field "#com.fabforedev.golfcrow:id/editTextEmail", "GolfCrow+2210201825954PM.qa.sourcepad.com"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1540191862909' status='passed' stop='1540191864012'>
+                    <name>I hide device keyboard </name>
+                    <title>I hide device keyboard </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1540191864012' status='passed' stop='1540191865159'>
+                    <name>I click "#com.fabforedev.golfcrow:id/action_menu_done"</name>
+                    <title>I click "#com.fabforedev.golfcrow:id/action_menu_done"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1540191865159' status='passed' stop='1540191871159'>
+                    <name>I: verifyUserPageLocation </name>
+                    <title>I: verifyUserPageLocation </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1540191865159' status='passed' stop='1540191871159'>
+                            <name>I see "Sign Up"</name>
+                            <title>I see "Sign Up"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1540191871159' status='passed' stop='1540191882309'>
+                    <name>I fill field "#com.fabforedev.golfcrow:id/editTextEmail", "GolfCrow+2210201825954PM@qa.sourcepad.com"</name>
+                    <title>I fill field "#com.fabforedev.golfcrow:id/editTextEmail", "GolfCrow+2210201825954PM@qa.sourcepad.com"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1540191882309' status='passed' stop='1540191883262'>
+                    <name>I hide device keyboard </name>
+                    <title>I hide device keyboard </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1540191883263' status='passed' stop='1540191884509'>
+            <name>Sign-up with valid credentials.</name>
+            <title>Sign-up with valid credentials.</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1540191883264' status='passed' stop='1540191884509'>
+                    <name>I click "#com.fabforedev.golfcrow:id/action_menu_done"</name>
+                    <title>I click "#com.fabforedev.golfcrow:id/action_menu_done"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1540191884510' status='passed' stop='1540191893263'>
+            <name>User to see "Privacy Mode".</name>
+            <title>User to see "Privacy Mode".</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1540191884511' status='passed' stop='1540191889512'>
+                    <name>I wait 5</name>
+                    <title>I wait 5</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1540191889512' status='passed' stop='1540191893263'>
+                    <name>I see "PRIVACY MODE"</name>
+                    <title>I see "PRIVACY MODE"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1540191893263' status='passed' stop='1540191896609'>
+            <name>User to see "Enter Confirmation Code".</name>
+            <title>User to see "Enter Confirmation Code".</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1540191893264' status='passed' stop='1540191893863'>
+                    <name>I click "#com.fabforedev.golfcrow:id/action_next"</name>
+                    <title>I click "#com.fabforedev.golfcrow:id/action_next"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1540191893863' status='passed' stop='1540191896609'>
+                    <name>I see "Enter Confirmation Code"</name>
+                    <title>I see "Enter Confirmation Code"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1540191896610' status='passed' stop='1540191899712'>
+            <name>User to see "You have successfully signed up!"</name>
+            <title>User to see "You have successfully signed up!"</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1540191896611' status='passed' stop='1540191896911'>
+                    <name>I click "#com.fabforedev.golfcrow:id/action_next"</name>
+                    <title>I click "#com.fabforedev.golfcrow:id/action_next"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1540191896911' status='passed' stop='1540191899712'>
+                    <name>I see "You have successfully signed up!"</name>
+                    <title>I see "You have successfully signed up!"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1540191899713' status='passed' stop='1540191995724'>
+            <name>Import contacts after sign-up.</name>
+            <title>Import contacts after sign-up.</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1540191899713' status='passed' stop='1540191931510'>
+                    <name>I click "Import Contacts"</name>
+                    <title>I click "Import Contacts"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1540191931510' status='passed' stop='1540191963911'>
+                    <name>I click "ALLOW"</name>
+                    <title>I click "ALLOW"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1540191963911' status='passed' stop='1540191995724'>
+                    <name>I click "Import Golf Crow Contacts"</name>
+                    <title>I click "Import Golf Crow Contacts"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1540191995725' status='passed' stop='1540192139013'>
+            <name>User to see Golf and Crow tabs and contents after import contacts.</name>
+            <title>User to see Golf and Crow tabs and contents after import contacts.</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1540191995728' status='passed' stop='1540192028261'>
+                    <name>I click "CROW"</name>
+                    <title>I click "CROW"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1540192028261' status='passed' stop='1540192035960'>
+                    <name>I see "Match Records"</name>
+                    <title>I see "Match Records"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1540192035960' status='passed' stop='1540192044411'>
+                    <name>I see "Player Comparison"</name>
+                    <title>I see "Player Comparison"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1540192044411' status='passed' stop='1540192050461'>
+                    <name>I see "Player Stats"</name>
+                    <title>I see "Player Stats"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1540192050461' status='passed' stop='1540192056482'>
+                    <name>I see "Match Leaders"</name>
+                    <title>I see "Match Leaders"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1540192056483' status='passed' stop='1540192063170'>
+                    <name>I see "Score Leaders"</name>
+                    <title>I see "Score Leaders"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1540192063170' status='passed' stop='1540192069611'>
+                    <name>I see "Junk Leaders"</name>
+                    <title>I see "Junk Leaders"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1540192069611' status='passed' stop='1540192100971'>
+                    <name>I click "GOLF"</name>
+                    <title>I click "GOLF"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1540192100971' status='passed' stop='1540192107711'>
+                    <name>I see "Create Match"</name>
+                    <title>I see "Create Match"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1540192107711' status='passed' stop='1540192114966'>
+                    <name>I see "Match List"</name>
+                    <title>I see "Match List"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1540192114966' status='passed' stop='1540192121011'>
+                    <name>I see "Courses"</name>
+                    <title>I see "Courses"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1540192121011' status='passed' stop='1540192127114'>
+                    <name>I see "Players"</name>
+                    <title>I see "Players"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1540192127114' status='passed' stop='1540192132313'>
+                    <name>I see "Games"</name>
+                    <title>I see "Games"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1540192132313' status='passed' stop='1540192139013'>
+                    <name>I see "Settings"</name>
+                    <title>I see "Settings"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

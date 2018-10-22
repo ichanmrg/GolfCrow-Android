@@ -1,0 +1,46 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1540192447974' stop='1540192515816'>
+    <name>GolfCrow: 4 Players, 7 Ways:</name>
+    <title>GolfCrow: 4 Players, 7 Ways:</title>
+    <test-cases>
+        <test-case start='1540192447974' status='passed' stop='1540192515815'>
+            <name>Create 4 players, 7 ways match.</name>
+            <title>Create 4 players, 7 ways match.</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1540192447977' status='passed' stop='1540192480316'>
+                    <name>I click "Create Match"</name>
+                    <title>I click "Create Match"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1540192480316' status='passed' stop='1540192480965'>
+                    <name>I click "#com.fabforedev.golfcrow:id/buttonGame"</name>
+                    <title>I click "#com.fabforedev.golfcrow:id/buttonGame"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1540192480965' status='passed' stop='1540192513615'>
+                    <name>I click "5 Ways"</name>
+                    <title>I click "5 Ways"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1540192513615' status='passed' stop='1540192514616'>
+                    <name>I click "#com.fabforedev.golfcrow:id/buttonCourse"</name>
+                    <title>I click "#com.fabforedev.golfcrow:id/buttonCourse"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1540192514616' status='passed' stop='1540192515815'>
+                    <name>I click "#com.fabforedev.golfcrow:id/buttonAdd"</name>
+                    <title>I click "#com.fabforedev.golfcrow:id/buttonAdd"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

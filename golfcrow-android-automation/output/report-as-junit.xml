@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="880.4349999999998" tests="16" failures="0">
+  <testsuite name="Root Suite" timestamp="2018-10-22T06:59:54" tests="0" failures="0" time="0">
+  </testsuite>
+  <testsuite name="GolfCrow: Sign-up" timestamp="2018-10-22T06:59:54" tests="11" file="/Users/ichanmrg/Documents/SourcePad/GolfCrow/CodeceptJS/tests/1. Smoke Test_test/1. Sign-up_test.js" failures="0" time="503.6809999999999">
+    <testcase name="GolfCrow: Sign-up: Check if sign-up page is loaded." time="6.284" classname="Check if sign-up page is loaded.">
+    </testcase>
+    <testcase name="GolfCrow: Sign-up: Check if required fields are mandatory." time="148.1" classname="Check if required fields are mandatory.">
+    </testcase>
+    <testcase name="GolfCrow: Sign-up: Sign-up with invalid number." time="29.953" classname="Sign-up with invalid number.">
+    </testcase>
+    <testcase name="GolfCrow: Sign-up: Sign-up with invalid password." time="31.652" classname="Sign-up with invalid password.">
+    </testcase>
+    <testcase name="GolfCrow: Sign-up: Sign-up with invalid email." time="31.946" classname="Sign-up with invalid email.">
+    </testcase>
+    <testcase name="GolfCrow: Sign-up: Sign-up with valid credentials." time="1.246" classname="Sign-up with valid credentials.">
+    </testcase>
+    <testcase name="GolfCrow: Sign-up: User to see &quot;Privacy Mode&quot;." time="8.753" classname="User to see &quot;Privacy Mode&quot;.">
+    </testcase>
+    <testcase name="GolfCrow: Sign-up: User to see &quot;Enter Confirmation Code&quot;." time="3.346" classname="User to see &quot;Enter Confirmation Code&quot;.">
+    </testcase>
+    <testcase name="GolfCrow: Sign-up: User to see &quot;You have successfully signed up!&quot;" time="3.102" classname="User to see &quot;You have successfully signed up!&quot;">
+    </testcase>
+    <testcase name="GolfCrow: Sign-up: Import contacts after sign-up." time="96.011" classname="Import contacts after sign-up.">
+    </testcase>
+    <testcase name="GolfCrow: Sign-up: User to see Golf and Crow tabs and contents after import contacts." time="143.288" classname="User to see Golf and Crow tabs and contents after import contacts.">
+    </testcase>
+  </testsuite>
+  <testsuite name="GolfCrow: Sign-out" timestamp="2018-10-22T07:08:59" tests="1" file="/Users/ichanmrg/Documents/SourcePad/GolfCrow/CodeceptJS/tests/1. Smoke Test_test/2. Sign-out_test.js" failures="0" time="135.92">
+    <testcase name="GolfCrow: Sign-out: Sign-out of GolfCrow." time="135.92" classname="Sign-out of GolfCrow.">
+    </testcase>
+  </testsuite>
+  <testsuite name="GolfCrow: Sign-in" timestamp="2018-10-22T07:11:14" tests="3" file="/Users/ichanmrg/Documents/SourcePad/GolfCrow/CodeceptJS/tests/1. Smoke Test_test/3. Sign-in_test.js" failures="0" time="172.993">
+    <testcase name="GolfCrow: Sign-in: Check if sign-in page is loaded" time="4.694" classname="Check if sign-in page is loaded">
+    </testcase>
+    <testcase name="GolfCrow: Sign-in: Sign-in with valid credentials" time="28.851" classname="Sign-in with valid credentials">
+    </testcase>
+    <testcase name="GolfCrow: Sign-in: User to see Golf and Crow tabs and contents after sign-in." time="139.448" classname="User to see Golf and Crow tabs and contents after sign-in.">
+    </testcase>
+  </testsuite>
+  <testsuite name="GolfCrow: 4 Players, 7 Ways" timestamp="2018-10-22T07:14:07" tests="1" file="/Users/ichanmrg/Documents/SourcePad/GolfCrow/CodeceptJS/tests/2. Regression Test_test/1. 4 Players, 7 Ways_test.js" failures="0" time="67.841">
+    <testcase name="GolfCrow: 4 Players, 7 Ways: Create 4 players, 7 ways match." time="67.841" classname="Create 4 players, 7 ways match.">
+    </testcase>
+  </testsuite>
+</testsuites>

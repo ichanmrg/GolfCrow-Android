@@ -1,0 +1,148 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1540192274969' stop='1540192447966'>
+    <name>GolfCrow: Sign-in:</name>
+    <title>GolfCrow: Sign-in:</title>
+    <test-cases>
+        <test-case start='1540192274969' status='passed' stop='1540192279663'>
+            <name>Check if sign-in page is loaded</name>
+            <title>Check if sign-in page is loaded</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1540192274970' status='passed' stop='1540192275828'>
+                    <name>I click "#com.fabforedev.golfcrow:id/buttonSignIn"</name>
+                    <title>I click "#com.fabforedev.golfcrow:id/buttonSignIn"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1540192275828' status='passed' stop='1540192279663'>
+                    <name>I see "Sign In"</name>
+                    <title>I see "Sign In"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1540192279664' status='passed' stop='1540192308515'>
+            <name>Sign-in with valid credentials</name>
+            <title>Sign-in with valid credentials</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1540192279665' status='passed' stop='1540192293913'>
+                    <name>I fill field "#com.fabforedev.golfcrow:id/editTextNumber", "9434212398"</name>
+                    <title>I fill field "#com.fabforedev.golfcrow:id/editTextNumber", "9434212398"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1540192293913' status='passed' stop='1540192307718'>
+                    <name>I fill field "#com.fabforedev.golfcrow:id/editTextPassword", "qwerty1"</name>
+                    <title>I fill field "#com.fabforedev.golfcrow:id/editTextPassword", "qwerty1"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1540192307718' status='passed' stop='1540192308515'>
+                    <name>I click "#com.fabforedev.golfcrow:id/buttonSignIn"</name>
+                    <title>I click "#com.fabforedev.golfcrow:id/buttonSignIn"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1540192308516' status='passed' stop='1540192447964'>
+            <name>User to see Golf and Crow tabs and contents after sign-in.</name>
+            <title>User to see Golf and Crow tabs and contents after sign-in.</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1540192308518' status='passed' stop='1540192339714'>
+                    <name>I click "CROW"</name>
+                    <title>I click "CROW"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1540192339714' status='passed' stop='1540192346665'>
+                    <name>I see "Match Records"</name>
+                    <title>I see "Match Records"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1540192346665' status='passed' stop='1540192351864'>
+                    <name>I see "Player Comparison"</name>
+                    <title>I see "Player Comparison"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1540192351864' status='passed' stop='1540192358819'>
+                    <name>I see "Player Stats"</name>
+                    <title>I see "Player Stats"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1540192358819' status='passed' stop='1540192364714'>
+                    <name>I see "Match Leaders"</name>
+                    <title>I see "Match Leaders"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1540192364714' status='passed' stop='1540192370114'>
+                    <name>I see "Score Leaders"</name>
+                    <title>I see "Score Leaders"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1540192370114' status='passed' stop='1540192377014'>
+                    <name>I see "Junk Leaders"</name>
+                    <title>I see "Junk Leaders"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1540192377014' status='passed' stop='1540192408524'>
+                    <name>I click "GOLF"</name>
+                    <title>I click "GOLF"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1540192408524' status='passed' stop='1540192416617'>
+                    <name>I see "Create Match"</name>
+                    <title>I see "Create Match"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1540192416617' status='passed' stop='1540192422664'>
+                    <name>I see "Match List"</name>
+                    <title>I see "Match List"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1540192422664' status='passed' stop='1540192429515'>
+                    <name>I see "Courses"</name>
+                    <title>I see "Courses"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1540192429515' status='passed' stop='1540192435664'>
+                    <name>I see "Players"</name>
+                    <title>I see "Players"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1540192435664' status='passed' stop='1540192441965'>
+                    <name>I see "Games"</name>
+                    <title>I see "Games"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1540192441965' status='passed' stop='1540192447964'>
+                    <name>I see "Settings"</name>
+                    <title>I see "Settings"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

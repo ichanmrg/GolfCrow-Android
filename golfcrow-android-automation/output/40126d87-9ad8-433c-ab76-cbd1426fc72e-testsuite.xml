@@ -1,0 +1,52 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1540192139045' stop='1540192274965'>
+    <name>GolfCrow: Sign-out:</name>
+    <title>GolfCrow: Sign-out:</title>
+    <test-cases>
+        <test-case start='1540192139045' status='passed' stop='1540192274965'>
+            <name>Sign-out of GolfCrow.</name>
+            <title>Sign-out of GolfCrow.</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1540192139046' status='passed' stop='1540192171662'>
+                    <name>I click "Settings"</name>
+                    <title>I click "Settings"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1540192171662' status='passed' stop='1540192203213'>
+                    <name>I click "Account"</name>
+                    <title>I click "Account"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1540192203213' status='passed' stop='1540192235313'>
+                    <name>I click "Sign Out"</name>
+                    <title>I click "Sign Out"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1540192235313' status='passed' stop='1540192268122'>
+                    <name>I click "YES"</name>
+                    <title>I click "YES"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1540192268122' status='passed' stop='1540192273126'>
+                    <name>I wait 5</name>
+                    <title>I wait 5</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1540192273126' status='passed' stop='1540192274965'>
+                    <name>I see "SIGN IN"</name>
+                    <title>I see "SIGN IN"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,29 @@
+
+[0m[0m
+[0m  GolfCrow: Sign-up[0m
+  [32m  ✓[0m[90m Check if sign-up page is loaded.[0m[31m (6284ms)[0m
+  [32m  ✓[0m[90m Check if required fields are mandatory.[0m[31m (148100ms)[0m
+  [32m  ✓[0m[90m Sign-up with invalid number.[0m[31m (29953ms)[0m
+  [32m  ✓[0m[90m Sign-up with invalid password.[0m[31m (31652ms)[0m
+  [32m  ✓[0m[90m Sign-up with invalid email.[0m[31m (31946ms)[0m
+  [32m  ✓[0m[90m Sign-up with valid credentials.[0m[31m (1246ms)[0m
+  [32m  ✓[0m[90m User to see "Privacy Mode".[0m[31m (8753ms)[0m
+  [32m  ✓[0m[90m User to see "Enter Confirmation Code".[0m[31m (3346ms)[0m
+  [32m  ✓[0m[90m User to see "You have successfully signed up!"[0m[31m (3102ms)[0m
+  [32m  ✓[0m[90m Import contacts after sign-up.[0m[31m (96011ms)[0m
+  [32m  ✓[0m[90m User to see Golf and Crow tabs and contents after import contacts.[0m[31m (143288ms)[0m
+
+[0m  GolfCrow: Sign-out[0m
+  [32m  ✓[0m[90m Sign-out of GolfCrow.[0m[31m (135920ms)[0m
+
+[0m  GolfCrow: Sign-in[0m
+  [32m  ✓[0m[90m Check if sign-in page is loaded[0m[31m (4694ms)[0m
+  [32m  ✓[0m[90m Sign-in with valid credentials[0m[31m (28851ms)[0m
+  [32m  ✓[0m[90m User to see Golf and Crow tabs and contents after sign-in.[0m[31m (139448ms)[0m
+
+[0m  GolfCrow: 4 Players, 7 Ways[0m
+  [32m  ✓[0m[90m Create 4 players, 7 ways match.[0m[31m (67841ms)[0m
+
+
+[92m [0m[32m 16 passing[0m[90m (15m)[0m
+

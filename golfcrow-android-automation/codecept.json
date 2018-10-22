@@ -1,0 +1,56 @@
+{
+  "tests": "./tests/*_test/*_test.js",
+  "timeout": 10000,
+  "plugins": {
+    "allure": {
+      "enabled": true
+    }
+  },
+  "output": "./output",
+  "helpers": {
+    "Appium": {
+      "smartWait": 10000,
+      "restart": false,
+      "app": "/Users/ichanmrg/Documents/SourcePad/GolfCrow/APKs/GC.apk",
+      "platform": "Android",
+      "version": "8",
+      "device": "Samsung Galaxy S8",
+      "host": "localhost",
+      "port": "4723",
+      "desiredCapabilities":
+      {
+        "automationName": "Appium"
+      }
+    }
+  },
+  "include": {
+    "I": "./steps_file.js"
+  },
+  "mocha": {
+    "reporterOptions": {
+      "codeceptjs-cli-reporter": {
+        "stdout": "-",
+        "options": {
+          "verbose": false,
+          "steps": true
+        }
+      },
+      "mochawesome": {
+        "stdout": "./output/console.log",
+        "uniqueScreenshotNames": "true",
+        "options": {
+          "reportDir": "./output",
+          "reportFilename": "report"
+        }
+      },
+      "mocha-junit-reporter": {
+        "stdout": "-",
+        "options": {
+          "mochaFile": "./output/report-as-junit.xml"
+        }
+      }
+    }
+  },
+  "bootstrap": false,
+  "name": "GolfCrow for Android"
+}
